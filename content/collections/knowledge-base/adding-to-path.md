@@ -34,7 +34,7 @@ Find out what shell you're using by running `echo $SHELL`.
 Then add this to the end of it:
 
 ```bash
-export PATH=${PATH}:~/.composer/vendor/bin
+export PATH="$PATH:~/.composer/vendor/bin"
 ```
 
 To test it, open a _new_ terminal window and run `echo $PATH`. You should see the composer directory at the end.
